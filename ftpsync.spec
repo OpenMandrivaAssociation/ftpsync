@@ -45,8 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/%{_bindir}
 cp -f ftpsync $RPM_BUILD_ROOT/%{_bindir}
 chmod 0755 $RPM_BUILD_ROOT/%{_bindir}/ftpsync
-mkdir -p $RPM_BUILD_ROOT/%{_docdir}/%{name}-%{version}
-cp -f README VERSION GPL INSTALL TODO ChangeLog CREDITS $RPM_BUILD_ROOT/%{_docdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
