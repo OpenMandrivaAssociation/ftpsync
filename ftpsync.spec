@@ -10,6 +10,7 @@ Source0: http://www.linux-france.org/prj/ftpsync/dist/%{name}-%{version}.tar.bz2
 License: GPL
 Group: 	 Networking/File transfer
 Url: 	 http://www.linux-france.org/prj/ftpsync/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Patch0:	%{name}-Makefile.patch.bz2
 BuildArch:	noarch
 
