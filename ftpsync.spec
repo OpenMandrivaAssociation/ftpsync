@@ -17,7 +17,6 @@ BuildArch:	noarch
 Requires:	perl
 
 %description
-
 The command ftpsync is a tool allowing incremental and recursive FTP
 transfer from a local directory to a remote FTP-served directory.
 
