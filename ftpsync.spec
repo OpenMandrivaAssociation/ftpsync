@@ -1,6 +1,6 @@
 %define name 	ftpsync
 %define version 1.80
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Synchronize a remote arborescence from a local directory by using FTP
 Name:    %{name}
