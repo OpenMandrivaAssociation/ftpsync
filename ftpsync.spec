@@ -46,3 +46,38 @@ implements the missing 'recursive PUT' FTP command.
 %doc README VERSION GPL INSTALL TODO ChangeLog CREDITS
 %{_bindir}/ftpsync
 
+
+
+%changelog
+* Mon Feb 13 2012 Andrey Bondrov <abondrov@mandriva.org> 1.81-1mdv2011.0
++ Revision: 773849
+- New version 1.81, spec cleanup
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.80-5mdv2011.0
++ Revision: 618368
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.80-4mdv2010.0
++ Revision: 428965
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.80-3mdv2009.0
++ Revision: 245451
+- rebuild
+- fix spacing at top of description
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 1.80-1mdv2008.1
++ Revision: 131030
+- stop manually redoing %%doc
+- kill re-definition of %%buildroot on Pixel's request
+- import ftpsync
+
+
+* Thu Apr 27 2006 Jerome Martin <jmartin@mandriva.org> 1.80-1mdk
+- 1.80
+
+* Tue Jan 10 2006 Jerome Martin <jerome.f.martin@free.fr> 1.78-1mdk
+- Initial version 
