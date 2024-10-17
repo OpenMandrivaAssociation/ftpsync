@@ -5,7 +5,7 @@ Summary:	Tool to synchronize a remote FTP-served with a local directory
 Source0:	http://www.linux-france.org/prj/ftpsync/dist/%{name}-%{version}.tgz
 License:	GPLv2
 Group:		Networking/File transfer
-Url:		http://www.linux-france.org/prj/ftpsync/
+Url:		https://www.linux-france.org/prj/ftpsync/
 BuildArch:	noarch
 
 %description
